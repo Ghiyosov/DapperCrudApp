@@ -7,7 +7,7 @@ namespace Infrastructure.Services;
 
 public class MentorService:IMentor
 {
-    private DapperContext _context;
+    private readonly DapperContext _context;
 
     public MentorService()
     {

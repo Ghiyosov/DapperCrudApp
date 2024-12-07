@@ -7,7 +7,7 @@ namespace Infrastructure.Services;
 
 public class CorseService: ICourse
 {
-    private DapperContext _context;
+    private readonly DapperContext _context;
 
     public CorseService()
     {

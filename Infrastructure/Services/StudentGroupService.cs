@@ -7,7 +7,7 @@ namespace Infrastructure.Services;
 
 public class StudentGroupService: IStudentGroup
 {
-    DapperContext _context;
+    readonly DapperContext _context;
 
     public StudentGroupService()
     {

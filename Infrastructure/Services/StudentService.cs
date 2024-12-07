@@ -7,7 +7,7 @@ namespace Infrastructure.Services;
 
 public class StudentService: IStudent
 {
-    DapperContext _context;
+    readonly DapperContext _context;
 
     public StudentService()
     {

@@ -7,7 +7,7 @@ namespace Infrastructure.Services;
 
 public class GroupServices: IGroup
 {
-    private DapperContext _context;
+    private readonly DapperContext _context;
 
     public GroupServices()
     {
